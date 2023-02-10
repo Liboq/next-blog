@@ -1,8 +1,8 @@
 /*
- * @Author: AiLjx
- * @Date: 2022-08-08 17:47:18
- * @LastEditors: AiLjx
- * @LastEditTime: 2022-08-09 16:34:39
+ * @Author: pikachu
+ * @Date
+ * @LastEditors: pikachu
+ * @LastEditTime
  */
 import type { GetStaticProps, GetStaticPaths } from "next";
 import Layout from "../../components/layout";

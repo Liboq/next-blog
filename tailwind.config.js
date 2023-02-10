@@ -6,7 +6,11 @@ module.exports = {
     "./styles/**/*.css",
 ],
   theme: {
-    extend: {},
+    extend: {
+      zIndex:{
+        '-10':'-10'
+      }
+    },
   },
   plugins: [],
 }

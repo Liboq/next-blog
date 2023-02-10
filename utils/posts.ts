@@ -20,6 +20,7 @@ const postsDirectory = path.join(process.cwd(), "posts");
 // 获取 markdown 目录下的文件名 (带后缀)
 const fileNames = fs.readdirSync(postsDirectory);
 
+
 // 获取所有文章用于展示首页列表的数据
 export const getSortedPostsData = () => {
   const allPostsData = fileNames.map((fileName) => {
