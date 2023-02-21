@@ -63,9 +63,28 @@ const Home: NextPage<Props> = ({ allPostsData }) => {
             </li>
             <li>
             <Link href="/bauble/Particale">
-                <a>粒子连线</a>
+                <a>图像粒子化</a>
               </Link>
             </li>
+          </ul>
+          <h2 className=" text-2xl my-4 font-bold">Three</h2>
+          <ul>
+            <li>
+              <Link href="/three/three-hello">
+                <a>hello</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/three/3d-text">
+                <a>text</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/three/3d-hello">
+                <a>3d-hello</a>
+              </Link>
+            </li>
+          
           </ul>
         </section>
       </div>
